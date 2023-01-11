@@ -13,12 +13,28 @@ list such support extensions that are actively used and maintained:
 <ul>
 
 <li>
-<strong>VsCode</strong> users can use
+<strong>Visual Studio Code</strong> users can use
 the <a href="https://github.com/coq-community/vscoq">VsCoq
 extension</a> that is actively maintained by Maxime Dénès as part
 of <a href="https://github.com/coq-community/manifesto">coq-community</a>.
 VsCoq was initially authored by C.J. Bell, but was left unmaintained
 for several years before being forked in coq-community.
+</li>
+
+<li>
+<strong>Visual Studio Code</strong> users can also try the <a
+href="https://github.com/ejgallego/coq-lsp">coq-lsp extension</a>,
+which is new for 2023 and communicates with Coq using the <a
+href="https://microsoft.github.io/language-server-protocol">Language
+Server Protocol</a> standard.
+
+<tt>coq-lsp</tt> provides continous document checking, advanced error
+recovery, and position-based document navigation and information,
+among other features. See <tt>coq-lsp's</tt> <a
+href="https://github.com/ejgallego/coq-lsp/blob/main/etc/FAQ.md">FAQ</a>
+for more information. Moreover, the LSP protocol is not limited to
+Visual Studio code, and the server can be used from any editor
+that supports it.
 </li>
 
 <li>
@@ -60,7 +76,8 @@ will see without the need to reexecute the document.
 
 <div class="frameworklinks">
 <ul>
-<li><a class="extlink" href="https://github.com/coq-community/vscoq">VsCoq (VsCode)</a></li>
+<li><a class="extlink" href="https://github.com/coq-community/vscoq">VsCoq (VSCode)</a></li>
+<li><a class="extlink" href="https://github.com/ejgallego/coq-lsp">coq-lsp (VSCode)</a></li>
 <li><a class="extlink" href="https://proofgeneral.github.io/">Proof General (Emacs)</a></li>
 <li><a class="extlink" href="https://github.com/whonore/Coqtail">Coqtail (Vim)</a></li>
 <li><a class="extlink" href="https://github.com/EugeneLoy/coq_jupyter">Jupyter</a></li>
